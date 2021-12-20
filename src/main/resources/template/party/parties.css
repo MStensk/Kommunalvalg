@@ -1,0 +1,16 @@
+.party-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    justify-content: space-between;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.party-name {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
